@@ -1,7 +1,7 @@
 nombres_compra_F =[]
 nombres_compra_I = []
-N_Entradas_F = 2
-N_Entradas_I = 2
+N_Entradas_F = 500
+N_Entradas_I = 500
 Cont_G_F = 0
 Cont_V_F = 0
 Cont_PAL_I = 0
