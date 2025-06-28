@@ -89,7 +89,7 @@ def OP1(comprador):
         while True:
             codigo_cof = input ("Ingrese el codigo de confirmacion: \n Debe tener un minimo de 6 caracteres, \n Debetener una Mayuscula y Un Numero : ")
             Validacion_Codigo_Confirmacion_F(codigo_cof)
-            if len(errores == 0):
+            if len(errores)== 0:
                 print ("Codigo Validado,  Descontando Vip")
                 N_Entradas_F -= 1
                 Cont_V_F += 1
@@ -121,7 +121,7 @@ def OP2(nombre_I):
     if (tipo_entrada == "PAL"):
         while True:
             codigo_cof = input ("Ingrese el codigo de confirmacion: \n(*)Debe tener un minimo de 6 caracteres\n(*)Debetener una Mayuscula y Un Numero : ")
-            errores = Validacion_Codigo_Confirmacion_F(codigo_cof)
+            errores = Validacion_Codigo_Confirmacion_I(codigo_cof)
             if len(errores) == 0:
                 print (45*"="+"\n\nCodigo Validado, Reservando Palco\n")
                 N_Entradas_I -= 1
